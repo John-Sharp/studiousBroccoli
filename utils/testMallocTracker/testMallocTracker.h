@@ -8,6 +8,4 @@ void allocatorTrackerReset();
 jint allocatorTrackerGetBytesAllocated();
 jint allocatorTrackerGetBytesFreed();
 
-bool (*mallocShouldFail)() = NULL;
-
 #endif

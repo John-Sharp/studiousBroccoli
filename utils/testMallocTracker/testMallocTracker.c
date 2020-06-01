@@ -1,5 +1,7 @@
 #include "testMallocTracker.h"
 
+bool (*mallocShouldFail)() = NULL;
+
 typedef struct ptrTableNode
 {
     void * ptr;
